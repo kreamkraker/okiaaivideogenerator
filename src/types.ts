@@ -15,7 +15,7 @@ export interface ProjectRecord {
 export interface GenerationJob {
   id: string;
   projectId?: string;
-  provider: 'wan22' | 'development';
+  provider: 'wan22' | 'huggingface' | 'development';
   model: ModelType;
   mode: VideoMode;
   prompt: string;

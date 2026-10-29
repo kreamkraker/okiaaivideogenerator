@@ -7,6 +7,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "types": ["vite/client", "vitest/globals", "node"],
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
@@ -16,6 +17,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "vite.config.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src", "api", "vite.config.ts"]
 }
